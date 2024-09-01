@@ -10,28 +10,28 @@ let unit = prompt("Agora, selecione uma opção abaixo para converter:\n" +
 
 switch (unit) {
     case "1":
-        resultado = meters * 1000
-        alert(`${meters} metros equivale a ${resultado} mm`)
+        result = meters * 1000
+        alert(`${meters} metros equivale a ${result} mm`)
         break
     case "2":
-        resultado = meters * 100
-        alert(`${meters} metros equivale a ${resultado} cm`)
+        result = meters * 100
+        alert(`${meters} metros equivale a ${result} cm`)
         break
     case "3":
-        resultado = meters * 10
-        alert(`${meters} metros equivale a ${resultado} dm`)
+        result = meters * 10
+        alert(`${meters} metros equivale a ${result} dm`)
         break
     case "4":
-        resultado = meters / 10
-        alert(`${meters} metros equivale a ${resultado} dam`)
+        result = meters / 10
+        alert(`${meters} metros equivale a ${result} dam`)
         break
     case "5":
-        resultado = meters / 100
-        alert(`${meters} metros equivale a ${resultado} hm`)
+        result = meters / 100
+        alert(`${meters} metros equivale a ${result} hm`)
         break
     case "6":
-        resultado = meters / 1000;
-        alert(`${meters} metros equivale a ${resultado} km`)
+        result = meters / 1000;
+        alert(`${meters} metros equivale a ${result} km`)
         break
     default:
         alert("Opção inválida!")
